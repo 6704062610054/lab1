@@ -1,14 +1,18 @@
 #include <stdio.h>
 int main(){
-	int a = 1;
-	int b = 2;
+	int a;
+	int b;
+	printf("n1 = ");
+	scanf("%d",&a);
+	printf("n2 = ");
+	scanf("%d",&b);
 	if (a>b){
-		printf("a is more than b");
+		printf("n1 is more than n2 by %d",a-b);
 	}
 	else if (b>a){
-		printf("b is more than a");
+		printf("n2 is more than n1 by %d",b-a);
 	}
 	else if (a==b){
-		printf("a eqauls b");
+		printf("n1 equals n2");
 	}
 }
